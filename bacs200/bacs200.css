@@ -8,13 +8,17 @@ header, footer {
   text-align: center;
 }
 
+main {
+  margin: 1in;
+  background-color: beige;
+}
+
 main img {
   width: 300px;
 }
 
 body {
-  margin: 1in;
-  background-color: beige;
+
 }
 
 p {
