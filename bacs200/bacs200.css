@@ -2,10 +2,22 @@ header, main, footer {
   align: center;
 }
 
+header, footer {
+  font-size: 300%
+  font-weight: bold;
+}
+
 body {
   margin: 1in;
+  background-color: beige;
 }
 
 p {
   float: right;
+  background-color: lime-green;
+  color: brown;
+}
+
+.money {
+  color: red;
 }
