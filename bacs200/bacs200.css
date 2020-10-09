@@ -10,7 +10,7 @@ header, footer {
 
 main {
   margin: 1in;
-  background-color: beige;
+  background-color: dark-beige;
 }
 
 main img {
@@ -22,7 +22,8 @@ body {
 }
 
 p {
-  float: right;
+  border: 1px;
+  align: right;
   background-color: lime-green;
   color: brown;
 }
