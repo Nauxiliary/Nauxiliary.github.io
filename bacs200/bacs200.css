@@ -3,8 +3,9 @@ header, main, footer {
 }
 
 header, footer {
-  font-size: 300%
+  font-size: 500%;
   font-weight: bold;
+  text-align: center;
 }
 
 body {
