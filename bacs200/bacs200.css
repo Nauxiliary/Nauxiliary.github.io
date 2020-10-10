@@ -1,3 +1,7 @@
+* {
+  border: 1px solid gray;
+}
+
 header, main, footer {
   align: center;
   background-color: BurlyWood;
@@ -19,7 +23,7 @@ main img {
 
 p {
   border: 1px;
-  align: right;
+  float: right;
   background-color: lime-green;
   color: brown;
 }
