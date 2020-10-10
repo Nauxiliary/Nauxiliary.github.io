@@ -10,6 +10,7 @@ header, main, footer {
 header, footer {
   font-size: 300%;
   font-weight: bold;
+  font-family: "Arbutus", "Goudy Old Style", "Copperplate Gothic Light";
   text-align: center;
 }
 
@@ -24,8 +25,7 @@ article {
 aside {
   border: 1px;
   float: right;
-  background-color: lime-green;
-  color: brown;
+  background-color: darkolivegreen;
 }
 
 .money {
