@@ -1,5 +1,6 @@
 header, main, footer {
   align: center;
+  background-color: BurlyWood;
 }
 
 header, footer {
@@ -8,12 +9,11 @@ header, footer {
   text-align: center;
 }
 
-main {
+body {
   margin: 1in;
-  background-color: brown;
 }
 
-img {
+main img {
   align: center;
 }
 
