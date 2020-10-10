@@ -14,10 +14,10 @@ header, footer {
 }
 
 body {
-  margin: 1in;
+  /*margin: 1in;*/
 }
 
-main img {
+article {
   align: center;
 }
 
