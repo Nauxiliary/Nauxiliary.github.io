@@ -8,6 +8,7 @@ header, main, footer {
 }
 
 header, footer {
+  line-height: 40%;
   font-size: 300%;
   font-weight: bold;
   font-family: "Arbutus", "Goudy Old Style", "Copperplate Gothic Light";
