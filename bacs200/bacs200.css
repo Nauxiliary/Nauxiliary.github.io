@@ -8,7 +8,7 @@ header, main, footer {
 }
 
 header, footer {
-  line-height: 40%;
+  line-height: 60%;
   font-size: 300%;
   font-weight: bold;
   font-family: "Arbutus", "Goudy Old Style", "Copperplate Gothic Light";
@@ -32,6 +32,7 @@ aside {
   border: 1px solid black;
   float: right;
   background-color: darkolivegreen;
+  width: 20%;
 }
 
 .money {
