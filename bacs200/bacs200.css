@@ -15,7 +15,8 @@ header, footer {
 }
 
 body {
-  /*margin: 1in;*/
+  margin: 1in;
+  background-color: BurlyWood;
 }
 
 article {
