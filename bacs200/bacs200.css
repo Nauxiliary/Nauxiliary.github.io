@@ -1,16 +1,17 @@
-* {
+/**{
   border: 1px solid gray;
-}
+}*/
 
 header, main, footer {
   align: center;
   background-color: BurlyWood;
-  left-margin: 1in;
-  right-margin: 1in;
+  margin: 1in;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 header, footer {
-  line-height: 60%;
+  line-height: 150%;
   font-size: 300%;
   font-weight: bold;
   font-family: "Arbutus", "Goudy Old Style", "Copperplate Gothic Light";
@@ -24,6 +25,7 @@ header, footer {
 
 .center {
   display: block;
+  align: center;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -32,6 +34,7 @@ header, footer {
 aside {
   display: block;
   border: 1px solid black;
+  font-family: sans-serif;
   float: right;
   background-color: darkolivegreen;
   width: 10%;
