@@ -5,6 +5,7 @@
 header, main, footer {
   align: center;
   background-color: BurlyWood;
+  margin: 1in;
 }
 
 header, footer {
