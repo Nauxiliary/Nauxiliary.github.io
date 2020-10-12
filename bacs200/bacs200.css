@@ -5,7 +5,8 @@
 header, main, footer {
   align: center;
   background-color: BurlyWood;
-  margin: 1in;
+  left-margin: 1in;
+  right-margin: 1in;
 }
 
 header, footer {
@@ -16,10 +17,10 @@ header, footer {
   text-align: center;
 }
 
-body {
+/*body {
   margin: 1in;
   background-color: BurlyWood;
-}
+}*/
 
 .center {
   display: block;
