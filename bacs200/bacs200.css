@@ -5,9 +5,10 @@
 header, main, footer {
   align: center;
   background-color: BurlyWood;
-  margin: 1in;
   margin-top: 0em;
   margin-bottom: 0em;
+  margin-left: 1in;
+  margin-right: 1in;
 }
 
 header, footer {
