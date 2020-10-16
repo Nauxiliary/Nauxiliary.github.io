@@ -2,7 +2,7 @@
   border: 1px solid gray;
 }*/
 
-header, main, footer {
+main, footer {
   align: center;
   background-color: BurlyWood;
   margin-top: 0em;
@@ -11,7 +11,7 @@ header, main, footer {
   margin-right: 1in;
 }
 
-header, footer {
+footer {
   line-height: 150%;
   font-size: 300%;
   font-weight: bold;
