@@ -29,8 +29,8 @@ footer div {
 
 main div {
   display: block;
+  text-size: 10;
   border: 1px solid black;
-  font-family: sans-serif;
   float: right;
   background-color: darkolivegreen;
   width: 20%;
