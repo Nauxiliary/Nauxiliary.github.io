@@ -8,18 +8,18 @@ main, footer {
   line-height: 150%;
   font-size: 300%;
   font-weight: bold;
-  text-align: center;
   background-color: BurlyWood;
   margin-top: 0em;
   margin-bottom: 0em;
   margin-left: 1in;
-  margin-right: auto;
+  margin-right: 1in;
 }
 
-/*body {
-  margin: 1in;
-  background-color: BurlyWood;
-}*/
+footer div {
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .center {
   display: block;
