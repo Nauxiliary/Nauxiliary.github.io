@@ -30,12 +30,12 @@ main, footer {
 }
 
 aside {
-  display: block;
+  /*display: block;*/
   border: 1px solid black;
   font-family: sans-serif;
   float: right;
   background-color: darkolivegreen;
-  width: 10%;
+  width: 20%;
 }
 
 .money {
