@@ -27,8 +27,8 @@ footer div {
   width: 40%;
 }
 
-aside {
-  /*display: block;*/
+main div {
+  display: block;
   border: 1px solid black;
   font-family: sans-serif;
   float: right;
