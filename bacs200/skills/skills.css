@@ -43,6 +43,7 @@
 #bodytext {
   position: absolute;
   left: 150px;
+  padding: 5px;
   border: 2px;
   border-style: double;
   border-color: #383838;
