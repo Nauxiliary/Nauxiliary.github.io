@@ -16,27 +16,27 @@
 
 /* The about link: 20px from the top with a green background */
 #page1 {
-  top: 260px;
+  top: 20px;
   background-color: #4CAF50;
 }
 
 #page2 {
-  top: 320px;
+  top: 80px;
   background-color: #2196F3; /* Blue */
 }
 
 #page3 {
-  top: 380px;
+  top: 140px;
   background-color: #f44336; /* Red */
 }
 
 #page4 {
-  top: 440px;
+  top: 200px;
   background-color: #a39300; /* Yellow */
 }
 
 #page5 {
-  top: 500px;
+  top: 260px;
   background-color: #ff00ff; /* Pink */
 }
 
