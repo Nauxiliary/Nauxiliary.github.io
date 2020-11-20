@@ -55,8 +55,8 @@
   z-index: 9;
   padding-bottom: 15px;
   background-color: #ededed;
-  border: 2px;
-  border-style: double;
+  border: 4px;
+  border-style: solid;
   border-radius: 10px 10px 10px 10px;
 }
 
