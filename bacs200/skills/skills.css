@@ -54,7 +54,7 @@
   position: absolute;
   z-index: 9;
   padding-bottom: 15px;
-  background-color: #fa7d00;
+  background-color: #9c9c9c;
   border-style: double;
   border-radius: 10px 10px 10px 10px;
 }
@@ -65,7 +65,7 @@
   margin-bottom: 15px;
   text-align: center;
   cursor: move;
-  background-color: #2196F3;
+  background-color: #4CAF50;
   color: #4a4a4a;
   border-radius: 8px 8px 0px 0px;
 }
