@@ -43,4 +43,6 @@
 #bodytext {
   position: absolute;
   left: 150px;
+  border: 2px;
+  border-radius: 10px 10px 10px 10px;
 }
