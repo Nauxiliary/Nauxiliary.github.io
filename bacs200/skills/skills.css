@@ -44,5 +44,7 @@
   position: absolute;
   left: 150px;
   border: 2px;
+  border-style: double;
+  border-color: #383838;
   border-radius: 10px 10px 10px 10px;
 }
