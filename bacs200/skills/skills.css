@@ -49,3 +49,19 @@
   border-color: #383838;
   border-radius: 10px 10px 10px 10px;
 }
+
+#draggable {
+  position: absolute;
+  background-color: #5c0b2e;
+  border: 2px;
+  border-style: double;
+  border-color: #383838;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  background-color: #2196F3;
+  color: #4a4a4a;
+}
