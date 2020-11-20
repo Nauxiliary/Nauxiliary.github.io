@@ -1,51 +1,14 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
-            
-            <script>
-                dragElement(document.getElementById("draggable"));
-
-                function dragElement(elmnt) {
-                    var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-                    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-
-                    function dragMouseDown(e) {
-                        e = e || window.event;
-                        e.preventDefault();
-                        pos3 = e.clientX;
-                        pos4 = e.clientY;
-                        document.onmouseup = closeDragElement;
-                        document.onmousemove = elementDrag;
-                    }
-
-                    function elementDrag(e) {
-                        e = e || window.event;
-                        e.preventDefault();
-                        
-                        pos1 = pos3 - e.clientX;
-                        pos2 = pos4 - e.clientY;
-                        pos3 = e.clientX;
-                        pos4 = e.clientY;
-                        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-                        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-                    }
-
-                    function closeDragElement() {
-    
-                    document.onmouseup = null;
-                    document.onmousemove = null;
-                    }
-                }
-            </script>
-    
             <meta charset="UTF-8">
             <title>Page 1</title>
             <link rel="stylesheet" href="skills.css">
         </head>
         <body>                                                                                                                       
             <div id="draggable">
-                <div id="draggableheader">Draggable Element</div>
-                <img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" alt="UNC logo">
+                <div id="draggableheader">Drag Here</div>
+                <!--<img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" alt="UNC logo">-->
             
                 <h1>W3Schools Test Pages</h1>                                                                                                           
                 <p>
@@ -55,6 +18,42 @@
                     <a href="https://www.w3schools.com/howto/howto_js_draggable.asp">How To - Create a Draggable HTML Element</a>
                 </p>
             </div>
+            <script>
+dragElement(document.getElementById(("draggable")));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+	} else {
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+	function dragMouseDown(e) {
+  e = e || window.event;
+  pos3 = parseInt(e.clientX);
+  pos4 = parseInt(e.clientY);
+	document.onmouseup = closeDragElement;
+  document.onmousemove = elementDrag;
+	return false;
+	}
+
+	function elementDrag(e) {
+	e = e || window.event;
+  pos1 = pos3 - parseInt(e.clientX);
+  pos2 = pos4-parseInt(e.clientY);
+	pos3 = parseInt(e.clientX);
+	pos4 = parseInt(e.clientY);
+  elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+  elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+	}
+
+	function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+	}
+}
+</script>
                
         </body>
     </html>
