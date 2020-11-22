@@ -89,3 +89,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#parallax {
+  background-color:#f4ffeb;
+  font-size:36px;
+}
