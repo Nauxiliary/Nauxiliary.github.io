@@ -81,7 +81,7 @@ body, html {
 }
 
 .parallax {
-  background-image: url("bacs200/images/Henry.jpg");
+  background-image: url('https://raw.githubusercontent.com/Nauxiliary/Nauxiliary.github.io/master/bacs200/images/Henry.jpg');
   height: 100%;
 
   background-attachment: fixed;
