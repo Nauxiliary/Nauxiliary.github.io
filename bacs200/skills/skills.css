@@ -168,7 +168,8 @@ body, html {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 120px;
+  font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
