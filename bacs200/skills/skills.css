@@ -75,3 +75,21 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("Nauxiliary.github.io/bacs200/images/henry.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
