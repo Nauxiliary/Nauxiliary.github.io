@@ -1,7 +1,3 @@
-text {
-  font-family: Arial, sans-serif;
-}
-
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
   left: -80px; /* Position them outside of the screen */
@@ -186,6 +182,8 @@ body, html {
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
   overflow: hidden;
 }
 
