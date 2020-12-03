@@ -1,0 +1,180 @@
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#page1 {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#page2 {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#page3 {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#page4 {
+  top: 200px;
+  background-color: #a39300; /* Yellow */
+}
+
+#page5 {
+  top: 260px;
+  background-color: #ff00ff; /* Pink */
+}
+
+#bodytext {
+  position: absolute;
+  left: 150px;
+  padding: 15px;
+  border: 2px;
+  border-style: double;
+  border-color: #383838;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#draggable {
+  position: absolute;
+  z-index: 9;
+  padding-bottom: 15px;
+  background-color: #ededed;
+  border: 4px;
+  border-style: solid;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#draggableheader {
+  z-index: 10;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  cursor: move;
+  background-color: #4CAF50;
+  color: #4a4a4a;
+  border-radius: 8px 8px 0px 0px;
+}
+
+#dragContent {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  background-image: url('https://raw.githubusercontent.com/Nauxiliary/Nauxiliary.github.io/master/bacs200/images/Henry.jpg');
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax {
+  background-color:#f4ffeb;
+  font-size:36px;
+}
+
+.hide {
+  margin: 20px;
+  color: #1d5aa3;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5c2e6e;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

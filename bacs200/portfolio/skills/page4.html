@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+    
+            <meta charset="UTF-8">
+            <title>Page 4</title>
+            <link rel="stylesheet" href="skills.css">
+        </head>
+        <body>
+            
+            <div>
+                <img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" alt="UNC logo">
+            
+                <h1>W3Schools Test Pages</h1>                                                                                                           
+                <p>
+                    This page demonstrates the "Modal" feature which shows extra content over the rest of the page<br>
+                    through the click of a button.
+                    <a href="https://www.w3schools.com/howto/howto_css_modals.asp">W3Schools How To - CSS/JS Modal</a>
+                </p>
+            </div>
+            <br>
+            <br>
+            
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Open Modal</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div>
+                <img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" alt="UNC logo">
+            
+                <h1>W3Schools Test Pages</h1>                                                                                                           
+                <p>
+                    This page demonstrates the "Modal" feature which shows extra content over the rest of the page<br>
+                    through the click of a button.
+                    <a href="https://www.w3schools.com/howto/howto_css_modals.asp">W3Schools How To - CSS/JS Modal</a>
+                </p>
+                </div>
+              </div>
+            </div>
+            
+            <script>
+               
+                var modal = document.getElementById("myModal");
+           
+                var btn = document.getElementById("myBtn");
+ 
+                var span = document.getElementsByClassName("close")[0];
+
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                }
+
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+            
+        </body>
+    </html>

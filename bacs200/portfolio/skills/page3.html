@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+    
+            <meta charset="UTF-8">
+            <title>Page 3</title>
+            <link rel="stylesheet" href="skills.css">
+        </head>
+        <body>
+          
+          <button class="hide" onclick="myFunction()">Click To Hide/Reveal</button>          
+          <div id="buttontext">
+              <img src="https://www.unco.edu/_resources/images/core/branding/UNC2015-Header-blue-text.png" alt="UNC logo">
+            
+              <h1>W3Schools Test Pages</h1>                                                                                                           
+              <p>
+                  This page uses the hide and show toggle effect to reveal content with the use of a button.
+                  <a href="https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp">W3Schools How To - Toggle Hide and Show</a>
+              </p>
+          </div>
+            
+          <script>
+            function myFunction() {
+                var x = document.getElementById("buttontext");
+                if (x.style.display === "none") {
+                x.style.display = "block";
+                } else {
+                x.style.display = "none";
+                }
+            }
+          </script>
+        </body>
+    </html>

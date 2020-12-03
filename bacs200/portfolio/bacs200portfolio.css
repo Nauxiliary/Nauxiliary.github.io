@@ -1,0 +1,41 @@
+/**{
+  border: 1px solid gray;
+}*/
+
+main, footer {
+  text-align: center;
+  font-family: "Arbutus", "Goudy Old Style", "Copperplate Gothic Light";
+  line-height: 150%;
+  /*font-size: 300%;*/
+  font-weight: bold;
+  background-color: BurlyWood;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 1in;
+  margin-right: 1in;
+}
+
+footer div {
+  align: center;
+}
+
+.center {
+  display: block;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+main > div {
+  display: block;
+  font-size: 75%;
+  border: 1px solid black;
+  float: right;
+  background-color: darkolivegreen;
+  width: 20%;
+}
+
+.money {
+  color: red;
+}
